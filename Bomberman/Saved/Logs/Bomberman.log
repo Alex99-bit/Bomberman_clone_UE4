@@ -1619,3 +1619,94 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.10.25-05.20.53:285][741]AssetCheck: New page: Asset Save: multiple assets
 [2023.10.25-05.20.53:285][741]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
 [2023.10.25-05.20.53:285][741]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2023.10.25-05.39.36:777][550]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.10.25-05.39.36:784][550]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.10.25-05.39.40:455][987]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Models
+[2023.10.25-05.39.40:456][987]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.10.25-05.40.00:916][889]LogFactory: Error: Can't find file 'Bomb.fbx' for import
+[2023.10.25-05.40.07:159][889]LogSlate: Window 'Mensaje' being destroyed
+[2023.10.25-05.40.07:161][889]Message dialog closed, result: Ok, title: Mensaje, text: Failed to import 'Bomb.fbx'. Failed to create asset '/Game/TopDownBP/Models/Bomb'.
+Please see Output Log for details.
+[2023.10.25-05.40.07:161][889]LogAssetTools: Warning: Failed to import 'Bomb.fbx'. Failed to create asset '/Game/TopDownBP/Models/Bomb'.
+Please see Output Log for details.
+[2023.10.25-05.42.05:643][868]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/alexc/OneDrive/Escritorio/Nueva carpeta/Bomb.fbx)
+[2023.10.25-05.42.05:736][868]LogFbx: Loading FBX Scene from C:/Users/alexc/OneDrive/Escritorio/Nueva carpeta/Bomb.fbx
+[2023.10.25-05.42.05:745][868]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.25-05.42.23:898][868]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2023.10.25-05.42.23:975][868]LogMaterial: Display: Missing cached shadermap for Black in PCD3D_SM5, Default, SM5 (DDC key hash: 1F523A328E87D89ADEA2A4EAFDE16059B467A263), compiling. 
+[2023.10.25-05.42.24:002][868]LogMaterial: Display: Missing cached shadermap for DarkMetal in PCD3D_SM5, Default, SM5 (DDC key hash: 5DB7CAFB73F64DA53D3A271E81D3C6A7957683FC), compiling. 
+[2023.10.25-05.42.24:005][868]LogMaterial: Display: Missing cached shadermap for White in PCD3D_SM5, Default, SM5 (DDC key hash: 29B7C5E1C89EDF334C41C75B27DC2C4A0D2CB592), compiling. 
+[2023.10.25-05.42.24:006][868]LogFbx: Display: Triangulating static mesh Bomb
+[2023.10.25-05.42.24:027][868]LogStaticMesh: Generando la malla estática Bomb...
+[2023.10.25-05.42.24:046][868]LogStaticMesh: Built static mesh [0.02s] /Game/TopDownBP/Models/Bomb.Bomb
+[2023.10.25-05.42.24:048][868]LogStaticMesh: Warning: Bomb has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.10.25-05.42.24:048][868]LogStaticMesh: Warning: Bomb has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.10.25-05.42.24:073][868]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.10.25-05.42.24:073][868]FBXImport: Warning: Bomb has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.10.25-05.42.24:073][868]FBXImport: Warning: Bomb has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.10.25-05.42.24:186][868]LogSlate: Took 0.015146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.10.25-05.42.24:231][873]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.10.25-05.42.24:233][873]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.10.25-05.42.24:233][873]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.10.25-05.42.24:233][873]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.10.25-05.42.24:272][873]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.24:277][873]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.10.25-05.42.24:285][873]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.24:290][873]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.10.25-05.42.24:298][873]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 42
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 36
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.24:329][875]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.10.25-05.42.25:964][ 61]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 30
+[2023.10.25-05.42.25:964][ 61]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.25:966][ 61]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.25-05.42.25:966][ 61]LogShaderCompilers: Display: Total job queries 48, among them cache hits 0 (0.00%)
+[2023.10.25-05.42.25:966][ 61]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.10.25-05.42.25:967][ 61]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.10.25-05.42.25:967][ 61]LogShaderCompilers: Display: ================================================
+[2023.10.25-05.42.26:001][ 65]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 26
+[2023.10.25-05.42.26:001][ 65]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.26:021][ 67]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2023.10.25-05.42.26:021][ 67]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.26:087][ 74]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2023.10.25-05.42.26:087][ 74]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.26:087][ 74]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2023.10.25-05.42.26:087][ 74]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2023.10.25-05.42.26:087][ 74]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:024][167]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2023.10.25-05.42.27:024][167]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:033][168]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.10.25-05.42.27:033][168]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:033][168]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2023.10.25-05.42.27:033][168]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:099][175]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2023.10.25-05.42.27:099][175]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:369][202]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2023.10.25-05.42.27:369][202]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:438][208]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2023.10.25-05.42.27:438][208]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:668][231]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2023.10.25-05.42.27:668][231]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.27:693][233]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2023.10.25-05.42.27:693][233]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.10.25-05.42.30:200][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.10.25-05.42.30:203][526]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.007
+[2023.10.25-05.42.30:204][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Models/Bomb] ([1] browsable assets)...
+[2023.10.25-05.42.30:221][526]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TopDownBP/Models/Bomb.Bomb]
+[2023.10.25-05.42.30:221][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Models/Bomb]
+[2023.10.25-05.42.30:227][526]LogSavePackage: Moving 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/Bomb_Auto1BA204E5B40F00EABD71E19BE8768618D.tmp' to 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/Autosaves/Game/TopDownBP/Models/Bomb_Auto1.uasset'
+[2023.10.25-05.42.30:228][526]LogFileHelpers: Auto-saving content packages took 0.025
+[2023.10.25-05.42.32:987][857]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.10.25-05.42.32:990][857]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.10.25-05.42.35:738][153]LogActorFactory: Actor Factory created Bomb
+[2023.10.25-05.42.36:582][237]LogActorFactory: Actor Factory created Bomb
+[2023.10.25-05.42.38:386][450]Cmd: DELETE
+[2023.10.25-05.42.38:386][450]Cmd: ACTOR DELETE
+[2023.10.25-05.42.38:420][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-05.42.38:424][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.25-05.42.38:426][450]LogEditorActor: Deleted 1 Actors (0.018 secs)
