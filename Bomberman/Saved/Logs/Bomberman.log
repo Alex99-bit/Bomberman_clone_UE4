@@ -1710,3 +1710,7 @@ Please see Output Log for details.
 [2023.10.25-05.42.38:420][450]LogEditorActor: Deleted Actor: StaticMeshActor
 [2023.10.25-05.42.38:424][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
 [2023.10.25-05.42.38:426][450]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.10.25-05.52.30:517][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.10.25-05.52.30:534][129]LogSavePackage: Moving 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/TopDownExampleMap_Auto2C8D7AA3B4EEDA410C71A6FA09227593F.tmp' to 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2023.10.25-05.52.30:535][129]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.021
+[2023.10.25-05.52.30:535][129]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.021
