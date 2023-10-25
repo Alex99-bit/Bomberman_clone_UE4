@@ -1548,3 +1548,74 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.10.25-05.14.59:259][699]AssetCheck: New page: Asset Save: multiple assets
 [2023.10.25-05.14.59:259][699]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
 [2023.10.25-05.14.59:259][699]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2023.10.25-05.20.29:396][ 25]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2023.10.25-05.20.29:668][ 57]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera1)
+[2023.10.25-05.20.29:942][ 86]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera1)
+[2023.10.25-05.20.34:630][634]LogTemp: Repeating last play command: Selected Viewport
+[2023.10.25-05.20.34:632][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.25-05.20.34:632][634]PIE: New page: Sesión PIE (reproducción en el editor): TopDownExampleMap (24 oct. 2023 18:20:34)
+[2023.10.25-05.20.34:632][634]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.10.25-05.20.34:640][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007887s)
+[2023.10.25-05.20.34:641][634]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.10.25-05.20.34:641][634]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2023.10.25-05.20.34:641][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.008991s)
+[2023.10.25-05.20.34:651][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.10.25-05.20.34:652][634]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.25-05.20.34:652][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.25-05.20.34:652][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.25-05.20.34:652][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.25-05.20.34:652][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.25-05.20.34:652][634]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.25-05.20.34:656][634]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.25-05.20.34:656][634]LogAudioMixer: Display: 1: FrontRight
+[2023.10.25-05.20.34:667][634]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2023.10.25-05.20.34:667][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.25-05.20.34:667][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.25-05.20.34:667][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.25-05.20.34:667][634]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.25-05.20.34:667][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.25-05.20.34:667][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.25-05.20.34:668][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.25-05.20.34:668][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.25-05.20.34:668][634]LogInit: FAudioDevice initialized.
+[2023.10.25-05.20.34:668][634]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownExampleMap'.
+[2023.10.25-05.20.34:677][634]LogLoad: Game class is 'TopDownGameMode_C'
+[2023.10.25-05.20.34:678][634]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2023.10.24-23.20.34
+[2023.10.25-05.20.34:679][634]LogWorld: Bringing up level for play took: 0.001275
+[2023.10.25-05.20.34:679][634]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.10.25-05.20.34:680][634]PIE: El servidor ha iniciado la sesión
+[2023.10.25-05.20.34:681][634]PIE: Play in editor total start time 0.049 seconds.
+[2023.10.25-05.20.43:372][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-05.20.43:372][657]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.10.25-05.20.43:372][657]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.25-05.20.43:372][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-05.20.43:377][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.25-05.20.43:407][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-05.20.43:410][657]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.25-05.20.43:410][657]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.25-05.20.43:411][657]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.25-05.20.43:413][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-05.20.43:414][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.10.25-05.20.43:443][658]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.10.25-05.20.47:183][ 87]LogSlate: Took 0.010398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.10.25-05.20.49:689][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.10.25-05.20.49:703][374]LogSavePackage: Moving 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/TopDownExampleMap5658DD0D4F8266A981556F933B877FBD.tmp' to 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2023.10.25-05.20.49:754][374]LogSavePackage: Moving 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/TopDownExampleMap_BuiltData5BA3E84F4F0268925D0C9C8623DFE589.tmp' to 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2023.10.25-05.20.49:761][374]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.25-05.20.49:761][374]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2023.10.25-05.20.49:761][374]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2023.10.25-05.20.51:240][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.10.25-05.20.52:309][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.10.25-05.20.53:216][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.10.25-05.20.53:230][741]LogSavePackage: Moving 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/TopDownExampleMap8CFE19D74461ABB9A865B0B1BB5491C0.tmp' to 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2023.10.25-05.20.53:278][741]LogSavePackage: Moving 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Saved/TopDownExampleMap_BuiltDataB8EB3D1045B6C891DAFD74AC187A5DC8.tmp' to 'E:/Docs/UCSLP/5to Semestre/Motores/Bomberman_clone_UE4/Bomberman/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2023.10.25-05.20.53:285][741]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.25-05.20.53:285][741]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2023.10.25-05.20.53:285][741]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
