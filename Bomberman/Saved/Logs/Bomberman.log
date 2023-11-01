@@ -4024,3 +4024,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.11.01-21.19.47:015][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.11.01-21.19.47:019][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
 [2023.11.01-21.19.47:065][286]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.11.01-21.20.31:910][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
