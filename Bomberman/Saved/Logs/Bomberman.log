@@ -910,3 +910,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.11.08-20.41.55:164][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.11.08-20.41.55:461][  2]LogSlate: Took 0.016402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.11.08-20.41.55:970][ 26]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.08-21.32.52:726][847]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{733c492e-fbb4-49b3-9e1b-fa8cc97575b7}.
+[2023.11.08-21.32.52:726][847]LogAudioMixer: Resetting audio stream to device id 
+[2023.11.08-21.32.52:737][847]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.08-21.32.52:737][847]LogAudioMixer: Display: 1: FrontRight
+[2023.11.08-21.32.53:398][849]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{5335bbaa-d162-4919-bcda-f67a8b250fd0}.
+[2023.11.08-21.32.53:398][849]LogAudioMixer: Resetting audio stream to device id 
+[2023.11.08-21.32.53:405][849]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.08-21.32.53:406][849]LogAudioMixer: Display: 1: FrontRight
